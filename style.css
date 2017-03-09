@@ -1,0 +1,52 @@
+html {
+	box-sizing:border-box;
+}
+
+*, *:before, *:after {
+	box-sizing:inherit;
+}	
+
+
+.container{
+	margin: 0;
+}
+
+h1{
+	color: rgb(75, 73, 71);
+	font-weight: normal;
+	font-size: 45px;
+	margin-left: 75px;
+}
+
+.question h1{
+	font-size: 55px;
+	text-align: center;
+
+}
+
+.question pre{
+	margin-left: 350px;
+	overflow-wrap: break-word;
+}
+
+
+.question h4 {
+	margin-left: 350px;
+}
+
+.footer{
+	background-color: rgb(75,73,79);
+	height: 215px;
+	
+}
+
+.footer div{
+	margin-left: 450px;
+	padding-top: 150px;
+	font-size: 20px;
+	color: rgb(153,153,153);
+}
+
+#question6 {
+	border-bottom: none;
+}

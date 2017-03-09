@@ -6,45 +6,58 @@
   .container { width: 1000px; margin: 0 auto;}
   .question { margin-bottom: 25px; border-bottom: 1px solid rgba(134,134,134,1);}
   </style>
+  <link rel="stylesheet" href="../normalize.css" />
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-
+  
   <div class="container">
 
-    <h1>Etsy Data Parsing</h1>
+    <h1>Etsy Items</h1>
+
+    <header class="header"><img src="banner.jpg"></header>
 
     <div class="question">
+      <h1>Answer 1</h1>
       <h4>1. What is the average price of all items?</h4>
       <pre id="answer1">Answer 1 Goes Here</pre>
     </div>
 
     <div class="question">
+      <h1>Answer 2</h1>
       <h4>2. Show me an array of items that cost between $14.00 and $18.00 USD?</h4>
       <pre id="answer2">Answer 2 Goes Here</pre>
     </div>
 
     <div class="question">
+      <h1>Answer 3</h1>
       <h4>3. Which item has a "GBP" currency code? Display it's name and price.</h4>
       <pre id="answer3">Answer 3 Goes Here</pre>
     </div>
 
     <div class="question">
+      <h1>Answer 4</h1>
       <h4>4. Display a list of all items who are made of wood.</h4>
       <pre id="answer4">Answer 4 Goes Here</pre>
     </div>
 
     <div class="question">
+      <h1>Answer 5</h1>
       <h4>5. Which items are made of eight or more materials? Display the name, number of items and the items it is made of.</h4>
       <pre id="answer5">Answer 5 Goes Here</pre>
     </div>
 
-    <div class="question">
+    <div class="question" id="question6">
+      <h1>Answer 6</h1>
       <h4>6. How many items were made by their sellers?</h4>
       <pre id="answer6">Answer 6 Goes Here</pre>
     </div>
 
   </div>
-
+  
+  <footer class="footer">
+  <div> &copy 2015 Brett Poarch</div>
+  </footer>
 
   <!-- JS FILES -->
   <script src="items.js"></script>
